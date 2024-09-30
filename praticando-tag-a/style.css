@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 5rem 10rem 10rem 10rem;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+div {
+    margin-bottom: 10rem;
+}
+
+.menu {
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
